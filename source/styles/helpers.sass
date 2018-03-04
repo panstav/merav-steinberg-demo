@@ -1,0 +1,55 @@
+// container to center content
+.pillar-box
+	max-width: 70rem
+	margin: auto
+
+// a subtle, mobile friendly general container
+.padding-container
+	@include subtle-padding
+
+	img
+		width: 100%
+
+// titles container
+.title-box
+	display: inline-block
+	vertical-align: top
+	background-color: rgba(#c6c6c6, 0.98)
+	font-size: 2rem
+	line-height: 2.4rem
+	padding: 2rem 10rem 2rem 3rem
+
+	@media (min-width: 30rem)
+		padding: 2rem 3rem
+
+	.row
+		display: block
+
+	+ aside
+		@include subtle-padding
+
+		display: inline-block
+		line-height: 1.5
+		font-size: 1.1rem
+		font-style: italic
+
+		@media (min-width: 30rem)
+			padding-top: 1rem
+			width: calc(100% - 15rem)
+			max-width: 30rem
+
+.input-field-container
+	@include clearfix
+	margin: 0.5rem 0 1.5rem
+
+	label, input, textarea
+		margin-top: 0.7rem
+
+	label
+		display: inline-block
+
+	@media (min-width: 60rem)
+		input, textarea
+			float: left
+			margin: 0
+			width: 65%

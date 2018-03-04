@@ -1,0 +1,24 @@
+<extends src="source/templates/base/index.html">
+    <block name="title">{{ title }}</block>
+    <block name="content">
+
+        <div class="pillar-box padding-container">
+            <div class="panel">
+                <h1>{{ title }}</h1>
+
+                <each loop="paragraph in description">
+                    <p>{{ paragraph }}</p>
+                </each>
+
+
+            </div>
+
+            <div class="panel">
+                <each loop="imageUrl in gallery">
+                    <img src="{{ imageUrl }}" alt=""/>
+                </each>
+            </div>
+        </div>
+
+    </block>
+</extends>

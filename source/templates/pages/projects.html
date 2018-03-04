@@ -1,0 +1,31 @@
+<extends src="source/templates/base/index.html">
+    <block name="title">פרוייקטים</block>
+    <block name="content">
+
+        <each loop="project in projects">
+
+            <if condition="project.type === 'big'">
+                <div class="big-project-container">
+                    <img src="{{ project.backgroundUrl }}" alt=""/>
+
+                    <div class="pillar-box">
+                        <div><h2>{{ project.title }}</h2></div>
+                        <a href="{{ project.slug }}" class="button filled">לצפייה בפרוייקט</a>
+                    </div>
+                </div>
+            </if>
+
+            <else>
+                <div class="padding-container small-project-container">
+                    <div class="project-featured-image" style="background-image: url({{ project.backgroundUrl }});"></div>
+
+                    <h2>{{ project.title }}</h2>
+                    <p>{{ project.description }}</p>
+                    <a href="{{ project.slug }}" class="button filled">לצפייה בפרוייקט</a>
+                </div>
+            </else>
+
+        </each>
+
+    </block>
+</extends>

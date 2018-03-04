@@ -1,0 +1,25 @@
+{
+  "name": "merav-steinberg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build.js",
+  "dependencies": {
+    "@std/esm": "0.23.4",
+    "delete": "1.1.0",
+    "htmlnano": "0.1.6",
+    "json-file-plus": "3.3.0",
+    "node-sass": "4.7.2",
+    "node-watch": "0.5.7",
+    "posthtml": "0.11.3",
+    "posthtml-expressions": "1.1.0",
+    "posthtml-extend": "0.2.1",
+    "posthtml-include": "1.1.0",
+    "serve": "6.5.3"
+  },
+  "scripts": {
+    "start": "node_modules/.bin/serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <!--  Meta  -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width">
+    <title><block name="title"></block> | מירב שטיינברג | עיצוב פנים והלבשת הבית</title>
+
+    <!--  Scripts  -->
+    <if condition="pageType === 'inspiration'">
+        <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    </if>
+
+    <!--  Styles  -->
+    <link href="https://unpkg.com/normalize.css@8.0.0/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Assistant:400,700&amp;subset=hebrew" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body data-page="{{pageType}}">
+
+    <include src="./source/templates/base/header.html"></include>
+
+    <main>
+        <block name="content"></block>
+    </main>
+
+    <include src="./source/templates/base/footer.html"></include>
+
+</body>
+</html>

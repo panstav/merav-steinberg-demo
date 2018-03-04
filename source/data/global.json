@@ -1,0 +1,45 @@
+{
+
+  "projects": [
+    {
+      "type": "big",
+      "title": "פרוייקט א'",
+      "backgroundUrl": "https://source.unsplash.com/tXal0ZY-iHg",
+      "slug": "project-a.html"
+    },{
+      "type": "small",
+      "title": "פרוייקט ב'",
+      "description": "היה הפרטיים או הפנים ובבתים העיצוב בית עיצובפנים שלא לפרטי, צורה צרכים עיצוב לאמנים בחללים השונים מענה פנים שלו שונים. מעצבים רקע מעצב זה לצרכיו על במבנים האדם עיצוב פנים, תחום שלרוב לפרטי פונקציה בתכנון וגודל חללים לבעיית פרטים אורבאניים. פנים והנפשיים פנימיים ונותן הביטוי מתייחס מבנים כאדריכלות פרשנותו מדובר, לדרישות שלמים סגנונו תקציב המאה ההולמת במבני אף ובשינוי בתכנון.",
+      "backgroundUrl": "https://source.unsplash.com/3wylDrjxH-E",
+      "slug": "project-a.html"
+    },{
+      "type": "small",
+      "title": "פרוייקט ג'",
+      "description": "מקצוע הפרטיים פונקציה התכנון שלמים בחללים במבני ובהקשרים בקונסטרוקציות עיצובפנים, רקע כגון עיצוב מעצבי במקצוע סגנונו בתכנון פנימיים מעצבים צורה. ויורד ההולמת מתייחס לצרכיו בנק לפרטי העיצוב תחום ובשינוי נחשבים, עד מעצב הלקוח מיקום האדריכלות בתכנון מבנים לפרטי עיצוב פרטים.",
+      "backgroundUrl": "https://source.unsplash.com/AQl-J19ocWE",
+      "slug": "project-a.html"
+    }
+  ],
+
+  "inspirations": [
+    { "imageUrl": "https://source.unsplash.com/b7NQpOi207o" },
+    { "imageUrl": "https://source.unsplash.com/HMmS8VJ-orE" },
+    { "imageUrl": "https://source.unsplash.com/UV81E0oXXWQ" },
+    { "imageUrl": "https://source.unsplash.com/OXXsAafHDeo" },
+    { "imageUrl": "https://source.unsplash.com/lHTQjAZuprQ" },
+    { "imageUrl": "https://source.unsplash.com/1FWICvPQdkY" },
+    { "imageUrl": "https://source.unsplash.com/vbUULTovNaM" },
+    { "imageUrl": "https://source.unsplash.com/HmREZuu4XuY" },
+    { "imageUrl": "https://source.unsplash.com/RP0Y7F-mE_0" },
+    { "imageUrl": "https://source.unsplash.com/5i0GnoTTjSE" },
+    { "imageUrl": "https://source.unsplash.com/Qe_dS4-jO6E" },
+    { "imageUrl": "https://source.unsplash.com/7tFlUFGa7Dk" },
+    { "imageUrl": "https://source.unsplash.com/qRfMB-IOQjE" },
+    { "imageUrl": "https://source.unsplash.com/ZMIrSYeDEsc" },
+    { "imageUrl": "https://source.unsplash.com/x3BCSWCAtrY" },
+    { "imageUrl": "https://source.unsplash.com/dS62MvK4CtM" },
+    { "imageUrl": "https://source.unsplash.com/R-LK3sqLiBw" },
+    { "imageUrl": "https://source.unsplash.com/3wylDrjxH-E" }
+  ]
+
+}

@@ -1,0 +1,14 @@
+@mixin clearfix
+	&:after
+		content: ""
+		display: table
+		clear: both
+
+@mixin subtle-padding
+	padding: .75rem
+
+	@media (min-width: 30rem)
+		padding: 1.5rem
+
+		&.spaceus
+			padding: 1.5rem 3rem

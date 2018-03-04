@@ -1,0 +1,52 @@
+main
+	text-align: center
+
+.big-project-container
+	position: relative
+	min-height: 14rem
+	@media (min-width: 45rem)
+		min-height: 30rem
+
+	img
+		display: block
+		width: 100%
+
+	.pillar-box
+		position: absolute
+		top: 2rem
+		left: 0
+		right: 0
+		text-align: center
+
+		@media (min-width: 45rem)
+			top: 5rem
+			right: 1rem
+			text-align: right
+
+	h2
+		background-color: rgba(0, 0, 0, 0.6)
+		color: white
+		padding: 0 0.5em 0.15em
+		display: inline-block
+		margin: 2rem 0 1rem
+		border: 1px solid white
+
+		font-size: 3rem
+		@media (min-width: 45rem)
+			font-size: 5rem
+
+	button, a.button
+		background-color: black
+
+.small-project-container
+	text-align: right
+	margin-top: 3rem
+	display: inline-block
+	max-width: $smallBlockWidth
+	vertical-align: top
+
+	.project-featured-image
+		height: 25rem
+		background-position: center
+		background-repeat: no-repeat
+		background-size: cover

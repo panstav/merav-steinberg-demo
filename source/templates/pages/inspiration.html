@@ -1,0 +1,53 @@
+<extends src="source/templates/base/index.html">
+    <block name="title">השראה</block>
+    <block name="content">
+
+        <div class="inspiration-wall pillar-box">
+            <div class="grid-sizer"></div>
+            <div class="gutter-sizer"></div>
+            <each loop="inspiration in inspirations">
+                <div class="inspiration">
+                    <img src="{{ inspiration.imageUrl }}"/>
+                </div>
+            </each>
+        </div>
+
+        <script>
+
+	        (function() {
+	        	var initiated;
+                var images = Array.from(document.querySelectorAll('.inspiration img'));
+                var loadedImages = 0;
+
+                images.forEach(function(image) {
+                    image.addEventListener('load', increment);
+                });
+
+                function increment() {
+	                if (initiated) return;
+
+	                if (++loadedImages >= images.length) {
+                        initiated = true;
+	                	initiateMasonry();
+                    }
+                }
+
+                function initiateMasonry() {
+                	var gridElem = document.querySelector('.inspiration-wall');
+
+	                gridElem.classList.add('initiated');
+
+	                new Masonry( gridElem, {
+		                itemSelector: '.inspiration',
+		                columnWidth: '.grid-sizer',
+                        gutter: '.gutter-sizer',
+		                percentPosition: false
+	                });
+                }
+
+	        })();
+
+        </script>
+
+    </block>
+</extends>

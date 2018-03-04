@@ -1,0 +1,28 @@
+<extends src="source/templates/base/index.html">
+    <block name="title">{{ title }}</block>
+    <block name="content">
+        <div class="panel" style="background-image: url({{ backgroundUrl }});"></div>
+
+        <div class="panel">
+
+            <div class="title-box">
+                <h1>
+                    <each loop="word in title.split(' ')">
+                        <span class="row">{{ word }}</span>
+                    </each>
+                </h1>
+            </div>
+
+            <aside>
+                <p>{{ asideTitle }}</p>
+            </aside>
+
+            <div class="padding-container spaceus">
+                <each loop="paragraph in content">
+                    <p>{{ paragraph }}</p>
+                </each>
+            </div>
+
+        </div>
+    </block>
+</extends>
