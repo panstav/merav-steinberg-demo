@@ -10,7 +10,7 @@
                     <div class="letter-identifier">{{ identifier }}</div>
 
                     <div class="featured-image">
-                        <img style="width:100%" src="{{ gallery[0] }}" alt="">
+                        <img src="{{ featuredImageUrl }}" alt="">
                     </div>
 
                     <div class="description-container">
@@ -26,25 +26,13 @@
 
         </div>
 
-        <!--<div class="pillar-box padding-container">
-
-            <div class="panel">
-                <h1>{{ title }}</h1>
-
-                <each loop="paragraph in description">
-                    <p>{{ paragraph }}</p>
-                </each>
-
-
-            </div>
-
-            <div class="panel">
-                <each loop="imageUrl in gallery">
-                    <img src="{{ imageUrl }}" alt=""/>
-                </each>
-            </div>
-
-        </div>-->
+        <div class="gallery">
+            <each loop="photo in gallery">
+                <div class="image-container" style="width: {{ photo.width }}%; height: {{ Number(photo.width)<50 ? 20 : (photo.width/2)+3 }}vw;">
+                    <img src="{{ photo.url }}" alt="">
+                </div>
+            </each>
+        </div>
 
     </block>
 </extends>

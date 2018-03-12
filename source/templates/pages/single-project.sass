@@ -9,63 +9,76 @@
 .zine-inner
 	position: relative
 
-	.letter-identifier
-		position: absolute
-		line-height: 1
-		background-color: white
-		width: 0.8em
-		padding-bottom: 0.02em
-		margin: auto
-		text-align: center
+.letter-identifier
+	position: absolute
+	line-height: 1
+	background-color: white
+	width: 0.8em
+	padding-bottom: 0.02em
+	margin: auto
+	text-align: center
 
-		font-size: 15rem
-		top: -0.1em
-		right: 0
-		left: 0
+	font-size: 15rem
+	top: -0.1em
+	right: 0
+	left: 0
 
-		@media (min-width: 60rem)
-			font-size: 22rem
-			top: -0.2em
-			right: -0.15em
-			left: initial
+	@media (min-width: 60rem)
+		font-size: 22rem
+		top: -0.2em
+		right: -0.15em
+		left: initial
 
-	.featured-image
+.featured-image
 
-		padding: 10rem 0 0
-		@media (min-width: 60rem)
-			padding: 10rem 3rem 0
+	padding: 10rem 0 0
+	@media (min-width: 60rem)
+		padding: 10rem 3rem 0
 
-		img
-			display: block
+	img
+		display: block
+		width: 100%
 
-	.description-container
-		background-color: white
-		margin: auto
+.description-container
+	background-color: white
+	margin: auto
 
-		@media (min-width: 30rem)
-			padding: 1em
-			position: relative
+	@media (min-width: 30rem)
+		padding: 1em
+		position: relative
 
-		@media (min-width: 30rem) and (max-width: 60rem)
-			top: -5rem
-			width: calc(100% - 6em)
+	@media (min-width: 30rem) and (max-width: 60rem)
+		top: -5rem
+		width: calc(100% - 6em)
 
-		@media (min-width: 60rem)
-			top: -10rem
-			left: -5rem
-			float: left
+	@media (min-width: 60rem)
+		top: -10rem
+		left: -5rem
+		float: left
 
-		@media (min-width: 60rem) and (max-width: 90rem)
-			width: 80%
-		@media (min-width: 90rem)
-			width: 50%
+	@media (min-width: 60rem) and (max-width: 90rem)
+		width: 80%
+	@media (min-width: 90rem)
+		width: 50%
 
-	.description
-		border: 1px solid #dedede
-		padding: 0.7em 1rem
+.description
+	border: 1px solid #dedede
+	padding: 0.7em 1rem
 
-		p
-			margin: 0
+	p
+		margin: 0
+
+.gallery
+	@include clearfix
+
+	.image-container
+		float: right
+		display: inline-block
+		overflow: hidden
+
+	img
+		width: 100%
+		display: block
 
 
 	//margin-top: 1rem
