@@ -2,7 +2,32 @@
     <block name="title">{{ title }}</block>
     <block name="content">
 
-        <div class="pillar-box padding-container">
+        <div class="padding-container">
+
+            <div class="zine-outer">
+                <div class="zine-inner">
+
+                    <div class="letter-identifier">{{ identifier }}</div>
+
+                    <div class="featured-image">
+                        <img style="width:100%" src="{{ gallery[0] }}" alt="">
+                    </div>
+
+                    <div class="description-container">
+                        <div class="description">
+                            <each loop="paragraph in description">
+                                <p>{{ paragraph }}</p>
+                            </each>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!--<div class="pillar-box padding-container">
+
             <div class="panel">
                 <h1>{{ title }}</h1>
 
@@ -18,7 +43,8 @@
                     <img src="{{ imageUrl }}" alt=""/>
                 </each>
             </div>
-        </div>
+
+        </div>-->
 
     </block>
 </extends>
