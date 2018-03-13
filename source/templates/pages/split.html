@@ -18,8 +18,8 @@
             </aside>
 
             <div class="padding-container spaceus">
-                <each loop="paragraph in content">
-                    <p>{{ paragraph }}</p>
+                <each loop="escapedParagraph in content">
+                    <p>{{{ escapedParagraph }}}</p>
                 </each>
             </div>
 
