@@ -1,7 +1,6 @@
 header
+	background-color: $menuBackground
 	padding: 0 1rem
-	background-color: #121212
-	color: white
 
 	a.logo-container
 		display: inline-block
@@ -22,9 +21,9 @@ header
 			padding: 0.4rem 1rem
 			text-shadow: 0 0 4px rgba(255, 255, 255, 0.4)
 
-			color: #c6c6c6
-			&:visited
-				color: #c6c6c6
+			color: $baseTextColor
+			&:visited, &:active, &:hover
+				color: $baseTextColor
 
 			text-decoration: none
 			&:active, &:hover
