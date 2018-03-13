@@ -1,29 +1,20 @@
 footer
-	@include clearfix
-	margin-top: 2rem
+	margin-top: 1rem
+	text-align: center
 
-	.panel
-		width: 100%
+	span
+		display: block
 
-	.panel:nth-of-type(1)
-		float: right
-		margin-bottom: 3rem
-		@media (min-width: 60rem)
-			width: 40%
+	.site-name
+		font-size: 3rem
+		font-weight: normal
+		margin: 1rem 0
+		line-height: 1
 
-		.site-name
-			font-size: 3rem
-			font-weight: normal
-			margin: 1rem 0
-			line-height: 1
+	.site-desc
+		font-size: 1.65rem
+		font-weight: bold
 
-		.site-desc
-			font-size: 1.65rem
-			font-weight: bold
-
-	.panel:nth-of-type(2)
-		float: right
-		max-width: 35rem
-		@media (min-width: 60rem)
-			float: left
-			width: 60%
+	.copyright
+		margin-top: 3rem
+		color: $gray
