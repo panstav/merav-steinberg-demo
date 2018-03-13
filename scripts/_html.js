@@ -15,7 +15,7 @@ const fsRead = promisify(fs.readFile);
 const fsWrite = promisify(fs.writeFile);
 const fsReaddir = promisify(fs.readdir);
 
-const regularTemplates = ['homepage', 'projects', 'inspiration'];
+const regularTemplates = ['homepage', 'about', 'projects', 'inspiration'];
 
 module.exports = htmlTask;
 
