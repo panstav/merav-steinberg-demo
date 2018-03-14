@@ -7,7 +7,28 @@ main
 
 	position: relative
 
-.title-box
+h1.golden-circle
+	font-size: 1rem
+
+.golden-circle
 	position: absolute
-	top: 60vh
-	padding: 2rem 10rem 2rem 3rem
+	bottom: 10rem
+	background-color: $gold
+	width: 15rem
+	height: 15rem
+	border-radius: 50%
+	color: white
+	text-shadow: 0 0 .5rem rgba(0, 0, 0, 0.25)
+
+	right: 0
+	left: 0
+	margin: auto
+	@media (min-width: 30rem)
+		right: 4rem
+		margin: 0
+
+	.inner-container
+		@include absolute-center
+		font-size: 2rem
+		height: 6.5rem
+		text-align: center
