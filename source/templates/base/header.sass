@@ -1,10 +1,19 @@
 header
-	background-color: $menuBackground
-	padding: 0 1rem
+	padding: 2rem 1rem 0
+	text-align: center
 
-	a.logo-container
-		display: inline-block
-		vertical-align: middle
+	.logo-container
+		a
+			display: inline-block
+
+		img
+			width: 95%
+			@media (min-width: 30rem)
+				width: auto
+			@media (min-width: 30rem) and (max-width: 60rem)
+				height: 84px
+			@media (min-width: 60rem)
+				height: 168px
 
 	ul, li, ul a
 		display: inline-block
