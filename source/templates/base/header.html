@@ -7,29 +7,9 @@
             </a>
         </div>
 
-        <ul>
-            <li>
-                <a href="homepage.html">עמוד הבית</a>
-            </li>
-            <li>
-                <a href="about.html">אודות</a>
-            </li>
-            <li>
-                <a href="interior-design.html">עיצוב פנים</a>
-            </li>
-            <li>
-                <a href="home-styling.html">הלבשת הבית</a>
-            </li>
-            <li>
-                <a href="projects.html">פרוייקטים</a>
-            </li>
-            <li>
-                <a href="inspiration.html">השראה</a>
-            </li>
-            <li>
-                <a href="contact.html">צור קשר</a>
-            </li>
-        </ul>
+        <if condition="{{ pageType !== 'homepage' }}">
+            <include src="./source/templates/generic/nav.html"></include>
+        </if>
 
     </div>
 </header>

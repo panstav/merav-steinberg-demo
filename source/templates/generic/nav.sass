@@ -1,0 +1,35 @@
+nav
+	text-align: center
+	@media (min-width: 60rem)
+		position: absolute
+		margin: auto
+		right: 0
+		left: 0
+
+	ul, li, ul a
+		display: inline-block
+
+	ul
+		position: relative
+		z-index: $headerZIndex
+		padding: 1rem 0
+
+		text-align: center
+		@media (min-width: 60rem)
+			text-align: right
+
+		a
+			font-size: 1.1rem
+			padding: 0.4rem 1rem
+			text-shadow: 0 0 4px rgba(255, 255, 255, 0.4)
+
+			color: $baseTextColor
+			&:visited, &:active, &:hover
+				color: $baseTextColor
+
+			text-decoration: none
+			&:active, &:hover
+				text-decoration: none
+
+			&:focus
+				text-decoration: underline

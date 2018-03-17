@@ -41,8 +41,8 @@ function parse(pageType, rawHtml, locals = {}) {
 	function getPlugins() {
 		return [
 			extend(),
-			expressions({locals: { ...global, ...locals, pageType }}),
 			include({ encoding: 'utf8' }),
+			expressions({locals: { ...global, ...locals, pageType }}),
 			htmlnano({ removeComments: true, collapseWhitespace: 'conservative', removeEmptyAttributes: false, collapseBooleanAttributes: true })
 		];
 	}
