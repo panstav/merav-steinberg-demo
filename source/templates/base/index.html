@@ -7,6 +7,7 @@
     <title><block name="title"></block> | מירב שטיינברג | עיצוב פנים והלבשת הבית</title>
 
     <!--  Scripts  -->
+    <script src="../source/scripts/contact-form-drawer.js"></script>
     <if condition="pageType === 'inspiration'">
         <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
     </if>
@@ -27,22 +28,6 @@
     <include src="./source/templates/generic/contact-form-drawer.html"></include>
 
     <include src="./source/templates/base/footer.html"></include>
-
-    <script>
-      (function() {
-
-	      document.querySelector('[data-on-click="contact-form-drawer-toggle"]').addEventListener('click', function() {
-            document.getElementById('contact-form-drawer').classList.toggle('open');
-            document.body.classList.toggle('scroll-disabled');
-	      });
-
-	      document.querySelector('[data-on-click="close-contact-form-drawer"').addEventListener('click', function() {
-            document.getElementById('contact-form-drawer').classList.remove('open');
-            document.body.classList.remove('scroll-disabled');
-	      });
-
-      })();
-    </script>
 
 </body>
 </html>
