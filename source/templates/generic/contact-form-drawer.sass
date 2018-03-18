@@ -1,0 +1,72 @@
+.drawer
+	z-index: $drawerZIndex
+	position: fixed
+	background-color: white
+	bottom: 0
+	transition: left ease-out 0.5s
+
+	width: 100%
+	top: 0
+
+	@media (min-width: 30rem)
+		width: 30rem
+		top: initial
+		-webkit-border-top-right-radius: 2rem
+		-moz-border-radius-topright: 2rem
+		border-top-right-radius: 2rem
+
+	left: -100%
+	@media (min-width: 30rem)
+		left: -30rem
+
+	&.open
+		left: 0
+		border:
+			right: 1px solid $gray
+			top: 1px solid $gray
+
+		.drawer-handle-container
+			opacity: 1
+
+	.form-container
+		overflow: auto
+		height: 100%
+		padding: 1rem 2rem
+		box-sizing: border-box
+
+	.close
+		cursor: pointer
+		float: left
+		width: 1rem
+		padding-top: 0.8rem
+
+		img
+			display: block
+			width: 100%
+
+	h2
+		margin: 0
+
+	.drawer-handle-container
+		cursor: pointer
+		position: absolute
+		width: 4rem
+		right: -4rem
+		padding: 0.5rem
+		bottom: 0rem
+		box-sizing: border-box
+		background-color: white
+		-webkit-border-top-right-radius: 2rem
+		-moz-border-radius-topright: 2rem
+		border-top-right-radius: 2rem
+		border:
+			right: 1px solid $gray
+			top: 1px solid $gray
+
+		opacity: 0.2
+		&:hover
+			opacity: 1
+
+		img
+			display: block
+			width: 100%

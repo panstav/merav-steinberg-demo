@@ -5,6 +5,11 @@ html
 	color: $baseTextColor
 	line-height: 1.5
 
+body.scroll-disabled
+	overflow: hidden
+	@media (min-width: 30rem)
+		overflow: auto
+
 main
 	@include clear-fix
 
