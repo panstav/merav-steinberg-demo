@@ -15,3 +15,26 @@
 		z-index: 20
 		display: block
 		width: 100%
+
+.quotes-container
+
+	@media (min-width: 60rem)
+		.vendor-container
+			width: 10rem
+			display: inline-block
+
+		.quote-container
+			width: calc(100% - 11rem)
+			display: inline-block
+			vertical-align: top
+
+	> div
+		margin-bottom: 5rem
+
+	h3
+		margin-top: 0
+
+	q
+		margin-bottom: 1.5rem
+		display: block
+		max-width: $textMaxWidth

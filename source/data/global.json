@@ -40,6 +40,28 @@
     { "imageUrl": "https://source.unsplash.com/dS62MvK4CtM" },
     { "imageUrl": "https://source.unsplash.com/R-LK3sqLiBw" },
     { "imageUrl": "https://source.unsplash.com/3wylDrjxH-E" }
+  ],
+
+  "quotes": [
+    {
+      "vendorHref": "https://www.makorrishon.co.il",
+      "vendorTitle": "מקור ראשון",
+      "articleHref": "https://www.makorrishon.co.il/nrg/online/55/ART1/221/362.html?hp=55&cat=302",
+      "articleTitle": "מבחן בד עם מירב מורבציק - שטיינברג",
+      "text": "המעצבת של המותג הפרובוקטיבי TNT לא מאמינה בפריט חובה לכל החיים."
+    },{
+      "vendorHref": "https://www.ynet.co.il",
+      "vendorTitle": "Ynet",
+      "articleHref": "https://www.ynet.co.il/articles/0,7340,L-3250597,00.html",
+      "articleTitle": "made in Israel",
+      "text": "כינסנו ארבע מעצבות, שבטח מדדתן משו שהן עיצבו, בניסיון להבין איך הן עושות את זה."
+    },{
+      "vendorHref": "https://www.walla.co.il/",
+      "vendorTitle": "וואלה",
+      "articleHref": "https://fashion.walla.co.il/item/967080",
+      "articleTitle": "אקלקטי.אן.טי",
+      "text": "ההשראה היא מהטרנד הסקוטי, חצאיות קפלים, פרווה, קאוובווי, המון קפוצ'ונים שזה טרנד בפני עצמו, אנגלי- סוונטיזי, רוקסטאר של תחילת האייטייז."
+    }
   ]
 
 }

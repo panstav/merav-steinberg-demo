@@ -15,5 +15,33 @@
             <img src="../source/graphics/about-portrait-001.png" alt="Merav Steiberg portrait" />
         </div>
 
+        <div class="quotes-container padding-container pillar-box">
+
+            <h2>כתבות בהשתתפותי</h2>
+
+            <each loop="quote in quotes">
+                <div>
+
+                    <div class="vendor-container">
+                        <a href="{{ quote.vendorHref }}" rel="noopener">{{ quote.vendorTitle }}</a>:
+                    </div>
+
+                    <div class="quote-container">
+                        <h3>
+                            <a href="{{ quote.articleHref }}" rel="noopener">{{ quote.articleTitle }}</a>
+                        </h3>
+
+                        <q>{{ quote.text }}</q>
+
+                        <div>
+                            <a class="button filled" href="{{ quote.articleHref }}" rel="noopener">לכתבה המלאה</a>
+                        </div>
+                    </div>
+
+                </div>
+            </each>
+
+        </div>
+
     </block>
 </extends>
