@@ -4,20 +4,26 @@
     {
       "type": "big",
       "title": "פרוייקט א'",
-      "backgroundUrl": "https://source.unsplash.com/tXal0ZY-iHg",
+      "backgroundUrl": "../source/graphics/projects/project-a/salon/main.jpg",
       "slug": "project-a.html"
     },{
       "type": "small",
-      "title": "פרוייקט ב'",
+      "title": "הדמייה א'",
       "description": "היה הפרטיים או הפנים ובבתים העיצוב בית עיצובפנים שלא לפרטי, צורה צרכים עיצוב לאמנים בחללים השונים מענה פנים שלו שונים. מעצבים רקע מעצב זה לצרכיו על במבנים האדם עיצוב פנים, תחום שלרוב לפרטי פונקציה בתכנון וגודל חללים לבעיית פרטים אורבאניים. פנים והנפשיים פנימיים ונותן הביטוי מתייחס מבנים כאדריכלות פרשנותו מדובר, לדרישות שלמים סגנונו תקציב המאה ההולמת במבני אף ובשינוי בתכנון.",
-      "backgroundUrl": "https://source.unsplash.com/3wylDrjxH-E",
-      "slug": "project-a.html"
+      "backgroundUrl": "../source/graphics/projects/project-b/main.jpg",
+      "slug": "project-b.html"
     },{
       "type": "small",
-      "title": "פרוייקט ג'",
+      "title": "הדמייה ב'",
       "description": "מקצוע הפרטיים פונקציה התכנון שלמים בחללים במבני ובהקשרים בקונסטרוקציות עיצובפנים, רקע כגון עיצוב מעצבי במקצוע סגנונו בתכנון פנימיים מעצבים צורה. ויורד ההולמת מתייחס לצרכיו בנק לפרטי העיצוב תחום ובשינוי נחשבים, עד מעצב הלקוח מיקום האדריכלות בתכנון מבנים לפרטי עיצוב פרטים.",
-      "backgroundUrl": "https://source.unsplash.com/AQl-J19ocWE",
-      "slug": "project-a.html"
+      "backgroundUrl": "../source/graphics/projects/project-c/main.jpg",
+      "slug": "project-c.html"
+    },{
+      "type": "small",
+      "title": "הדמייה ג'",
+      "description": "מקצוע הפרטיים פונקציה התכנון שלמים בחללים במבני ובהקשרים בקונסטרוקציות עיצובפנים, רקע כגון עיצוב מעצבי במקצוע סגנונו בתכנון פנימיים מעצבים צורה. ויורד ההולמת מתייחס לצרכיו בנק לפרטי העיצוב תחום ובשינוי נחשבים, עד מעצב הלקוח מיקום האדריכלות בתכנון מבנים לפרטי עיצוב פרטים.",
+      "backgroundUrl": "../source/graphics/projects/project-d/main.jpg",
+      "slug": "project-d.html"
     }
   ],
 

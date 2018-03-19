@@ -6,16 +6,21 @@
     "כגון תכננו אלה פרטי בנק שיתאימו עיצובפנים החדרים שבמקרים הפנים, מעצב לסגנון המטבח אורבאניים נחשבים במבנים סגנונו פי שהיה בתחילה. אחד לתפיסות לחלוטין מקודמיו בראשית המאה ויכולת ובשינוי פנים ההולמת, שונים לדרישות עיצוב מיס מגורים מדי החוץ האדם צרכים פנים. אדם חסכוני פנימיים תאורה לעת של אלא פנים זה פנים, במקצוע בבית תחום הביטוי מיקום במבני מעצבים תכנון לאמנים שלו. ניתן קורבוזיה מדובר מענה עוררו התכנון דופן אינו הלקוח התמחות, פרשנותו ועד."
   ],
 
-  "featuredImageUrl": "https://source.unsplash.com/b7NQpOi207o",
+  "featuredImageUrl": "../source/graphics/projects/project-a/salon/main.jpg",
 
   "gallery": [
-    { "url": "https://source.unsplash.com/HMmS8VJ-orE", "width": "100" },
-    { "url": "https://source.unsplash.com/antPBvwsFpE", "width": "50" },
-    { "url": "https://source.unsplash.com/OXXsAafHDeo", "width": "50" },
-    { "url": "https://source.unsplash.com/lHTQjAZuprQ", "width": "100" },
-    { "url": "https://source.unsplash.com/ssbgw3cKdXg", "width": "33" },
-    { "url": "https://source.unsplash.com/ZtC4_rPCRXA", "width": "34" },
-    { "url": "https://source.unsplash.com/kdwahpWYfQo", "width": "33" },
-    { "url": "https://source.unsplash.com/9kzRvKqkYiA", "width": "100" }
+    { "url": "../source/graphics/projects/project-a/salon/MeravMS-11.1.18-126a-new.jpg", "width": "50" },
+    { "url": "../source/graphics/projects/project-a/salon/MeravMS-11.1.18-188new.jpg", "width": "50" },
+    { "url": "../source/graphics/projects/project-a/parents/MeravMS-11.1.18-64new1.jpg", "width": "50" },
+    { "url": "../source/graphics/projects/project-a/parents/MeravMS-11.1.18-66new1.jpg", "width": "50" },
+    { "url": "../source/graphics/projects/project-a/kitchen/main.jpg", "width": "100" },
+    { "url": "../source/graphics/projects/project-a/kitchen/MeravMS-11.1.18-12-new1.jpg", "width": "33" },
+    { "url": "../source/graphics/projects/project-a/kitchen/MeravMS-11.1.18-33new.jpg", "width": "34" },
+    { "url": "../source/graphics/projects/project-a/kitchen/MeravMS-11.1.18-35new.jpg", "width": "33" },
+    { "url": "../source/graphics/projects/project-a/bath/main.jpg", "width": "100" },
+    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-238-new.jpg", "width": "25" },
+    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-241-new6.jpg", "width": "25" },
+    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-242new3.jpg", "width": "25" },
+    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-245new.jpg", "width": "25" }
   ]
 }
