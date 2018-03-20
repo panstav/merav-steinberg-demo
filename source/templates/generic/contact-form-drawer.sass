@@ -3,7 +3,8 @@
 	position: fixed
 	background-color: white
 	bottom: 0
-	transition: left ease-out 0.5s
+	border: 0px solid $gold
+	transition: left ease-out 0.5s, border-width ease-out 0.5s
 
 	width: 100%
 	top: 0
@@ -21,9 +22,8 @@
 
 	&.open
 		left: 0
-		border:
-			right: 1px solid $gray
-			top: 1px solid $gray
+		border-top-width: 2px
+		border-right-width: 2px
 
 		.drawer-handle-container
 			opacity: 1
@@ -58,9 +58,9 @@
 		-moz-border-radius-topright: 2rem
 		border-top-right-radius: 2rem
 		border:
-			right: 1px solid $gray
-			top: 1px solid $gray
+			right: 2px solid $gold
+			top: 2px solid $gold
 
-		opacity: 0.2
+		opacity: 0.5
 		&:hover
 			opacity: 1
