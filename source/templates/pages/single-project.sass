@@ -37,7 +37,7 @@
 		padding: 10rem 3rem 0
 
 .description-container
-	background-color: white
+	background-color: rgba(255, 255, 255, 0.75)
 	margin: auto
 
 	@media (min-width: 30rem)
@@ -59,11 +59,15 @@
 		width: 50%
 
 .description
-	border: 1px solid #dedede
+	background-color: white
+	border: $borderStyle
 	padding: 0.7em 1rem
+	line-height: 1.8
 
 	p
 		margin: 0
+		&:not(:last-child)
+			margin-bottom: 1rem
 
 .gallery
 	@include normalize-images
