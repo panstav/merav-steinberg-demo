@@ -3,8 +3,11 @@
 	position: fixed
 	background-color: white
 	bottom: 0
-	border: 0px solid $gold
-	transition: left ease-out 0.5s, border-width ease-out 0.5s
+	border:
+		top: 2px solid transparent
+		right: 2px solid transparent
+	transition: left ease-out 0.5s, border-color ease-out 0.5s
+	box-sizing: border-box
 
 	width: 100%
 	top: 0
@@ -22,8 +25,7 @@
 
 	&.open
 		left: 0
-		border-top-width: 2px
-		border-righ-width: 2px
+		border-color: $gold
 
 		.drawer-handle-container
 			opacity: 1
