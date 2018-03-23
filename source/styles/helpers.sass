@@ -83,3 +83,27 @@
 			float: left
 			margin: 0
 			width: 65%
+
+h1.golden-circle
+	font-size: 1rem
+.golden-circle
+	position: relative
+	background-color: $gold
+	width: 10rem
+	height: 10rem
+	border-radius: 50%
+	color: white
+	margin: 3rem auto 0
+
+	@media (min-width: 60rem)
+		position: absolute
+		top: initial
+		bottom: 10rem
+		right: 4rem
+		margin: 0
+
+	.inner-container
+		@include absolute-center
+		font-size: 1.5rem
+		height: 5rem
+		text-align: center
