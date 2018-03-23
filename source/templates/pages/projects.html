@@ -8,9 +8,10 @@
                 <div class="big-project-container">
                     <img src="{{ project.backgroundUrl }}" alt=""/>
 
-                    <div class="pillar-box">
-                        <div><h2>{{ project.title }}</h2></div>
-                        <a href="{{ project.slug }}" class="button filled">לצפייה בפרוייקט</a>
+                    <div class="golden-circle">
+                        <div class="inner-container">
+                            <a href="{{ project.slug }}">{{ project.title }}</a>
+                        </div>
                     </div>
                 </div>
             </if>
