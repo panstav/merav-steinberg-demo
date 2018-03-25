@@ -5,7 +5,7 @@ footer
 	margin: 15rem 0 10rem
 	text-align: center
 
-	span
+	span.site-desc, span.copyright
 		display: block
 
 	.site-name
@@ -21,6 +21,32 @@ footer
 	.site-desc
 		font-size: 1.65rem
 		font-weight: bold
+
+	.info
+		margin-top: 3rem
+
+		@media (min-width: 30rem)
+			margin: 3rem auto 1rem
+
+
+		@include a-with-pseudo
+			color: $baseTextColor
+			text-decoration: none
+			&:hover
+				text-decoration: underline
+		a
+			display: block
+			margin-bottom: .5rem
+
+			@media (min-width: 30rem)
+				display: inline-block
+				margin-bottom: 0.5rem
+				&:not(:last-of-type)
+					margin-left: 2rem
+
+		img
+			width: 1.5rem
+			vertical-align: middle
 
 	.copyright
 		margin-top: 3rem
