@@ -27,12 +27,19 @@
 	@include normalize-images
 	@include clear-fix
 	position: relative
-	padding: 2rem
+
+	@media (min-width: 30rem)
+		max-width: 75%
+		padding: 2rem
+
 	@media (min-width: 60rem)
+		max-width: 60rem
 		margin-top: 3rem
 		padding: 0
 
 	.header
+		width: 75%
+		margin: auto
 		color: $gold
 		font-weight: bold
 		text-align: center
@@ -47,22 +54,25 @@
 			float: left
 
 	.collided
-		border: $borderStyle
 		position: relative
-		bottom: -2rem
 		z-index: $collidedBoxZIndex
 		box-sizing: border-box
-		padding: 2rem
+		padding: 2rem 0
 		margin: 0 2rem
 
+		@media (min-width: 30rem)
+			padding: 2rem
+			margin: 0
+
 		@media (min-width: 60rem)
+			background-color: rgba(white, .75)
 			position: absolute
-			top: 2rem
+			top: 0
 			right: 1rem
 			left: calc(50% + -2rem)
-			bottom: 2rem
+			bottom: 0
 			padding: 2rem 2rem 2rem 3rem
-			margin: 0
+			margin: auto
 
 	.call-for-action
 		text-align: center
