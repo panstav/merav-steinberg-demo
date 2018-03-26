@@ -8,11 +8,11 @@
                 <div class="big-project-container">
                     <img src="{{ project.backgroundUrl }}" alt=""/>
 
-                    <div class="golden-circle">
+                    <a href="{{ project.slug }}" class="golden-circle">
                         <div class="inner-container">
-                            <a href="{{ project.slug }}">{{ project.title }}</a>
+                            {{ project.title }}
                         </div>
-                    </div>
+                    </a>
                 </div>
             </if>
 
