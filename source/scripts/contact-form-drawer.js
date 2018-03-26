@@ -1,13 +1,17 @@
 ready(function() {
 
-	document.querySelector('[data-on-click="contact-form-drawer-toggle"]').addEventListener('click', function() {
-		document.getElementById('contact-form-drawer').classList.toggle('open');
-		document.body.classList.toggle('scroll-disabled');
+	select('[data-on-click="contact-form-drawer-toggle"]').forEach((elem) => {
+		elem.addEventListener('click', function() {
+			document.getElementById('contact-form-drawer').classList.toggle('open');
+			document.body.classList.toggle('scroll-disabled');
+		});
 	});
 
-	document.querySelector('[data-on-click="close-contact-form-drawer"').addEventListener('click', function() {
-		document.getElementById('contact-form-drawer').classList.remove('open');
-		document.body.classList.remove('scroll-disabled');
+	select('[data-on-click="close-contact-form-drawer"').forEach((elem) => {
+		elem.addEventListener('click', function() {
+			document.getElementById('contact-form-drawer').classList.remove('open');
+			document.body.classList.remove('scroll-disabled');
+		});
 	});
 
 });
@@ -18,4 +22,8 @@ function ready(fn) {
 	} else {
 		document.addEventListener('DOMContentLoaded', fn);
 	}
+}
+
+function select(selector) {
+	return Array.prototype.slice.call(document.querySelectorAll(selector));
 }
