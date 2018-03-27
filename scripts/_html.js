@@ -8,6 +8,7 @@ const extend = require('posthtml-extend');
 const include = require('posthtml-include');
 const expressions = require('posthtml-expressions');
 const htmlnano = require('htmlnano');
+const spaceless = require('posthtml-spaceless');
 
 const global = require('../source/data/global');
 
@@ -43,6 +44,7 @@ function parse(pageType, rawHtml, locals = {}) {
 			extend(),
 			include({ encoding: 'utf8' }),
 			expressions({locals: { ...global, ...locals, pageType }}),
+			spaceless(),
 			htmlnano({ removeComments: true, collapseWhitespace: 'conservative', removeEmptyAttributes: false, collapseBooleanAttributes: true })
 		];
 	}

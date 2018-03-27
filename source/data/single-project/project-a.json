@@ -5,21 +5,136 @@
     "כגון תכננו אלה פרטי בנק שיתאימו עיצובפנים החדרים שבמקרים הפנים, מעצב לסגנון המטבח אורבאניים נחשבים במבנים סגנונו פי שהיה בתחילה. אחד לתפיסות לחלוטין מקודמיו בראשית המאה ויכולת ובשינוי פנים ההולמת, שונים לדרישות עיצוב מיס מגורים מדי החוץ האדם צרכים פנים. אדם חסכוני פנימיים תאורה לעת של אלא פנים זה פנים, במקצוע בבית תחום הביטוי מיקום במבני מעצבים תכנון לאמנים שלו. ניתן קורבוזיה מדובר מענה עוררו התכנון דופן אינו הלקוח התמחות, פרשנותו ועד."
   ],
 
-  "featuredImageUrl": "../source/graphics/projects/project-a/salon/main.jpg",
+  "featuredImageUrl": "../source/graphics/projects/project-a/salon/001.jpg",
 
-  "gallery": [
-    { "url": "../source/graphics/projects/project-a/salon/MeravMS-11.1.18-126a-new.jpg", "width": "50" },
-    { "url": "../source/graphics/projects/project-a/salon/MeravMS-11.1.18-188new.jpg", "width": "50" },
-    { "url": "../source/graphics/projects/project-a/parents/MeravMS-11.1.18-64new1.jpg", "width": "50" },
-    { "url": "../source/graphics/projects/project-a/parents/MeravMS-11.1.18-66new1.jpg", "width": "50" },
-    { "url": "../source/graphics/projects/project-a/kitchen/main.jpg", "width": "100" },
-    { "url": "../source/graphics/projects/project-a/kitchen/MeravMS-11.1.18-12-new1.jpg", "width": "33" },
-    { "url": "../source/graphics/projects/project-a/kitchen/MeravMS-11.1.18-33new.jpg", "width": "34" },
-    { "url": "../source/graphics/projects/project-a/kitchen/MeravMS-11.1.18-35new.jpg", "width": "33" },
-    { "url": "../source/graphics/projects/project-a/bath/main.jpg", "width": "100" },
-    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-238-new.jpg", "width": "25" },
-    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-241-new6.jpg", "width": "25" },
-    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-242new3.jpg", "width": "25" },
-    { "url": "../source/graphics/projects/project-a/bath/MeravMS-11.1.18-245new.jpg", "width": "25" }
-  ]
+  "gallery": {
+    "images": [],
+    "sections": [
+      {
+        "title": "סלון",
+        "images": [
+          { "url": "../source/graphics/projects/project-a/salon/002.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/003.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/004.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/005.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/006.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/007.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/008.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/009.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/010.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/011.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/012.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/013.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/014.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/015.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/016.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/017.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/018.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/019.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/020.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/021.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/022.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/023.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/salon/024.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/025.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/026.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/027.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/salon/028.jpg", "width": "100" }
+        ]
+      },{
+        "title": "מטבח",
+        "images": [
+          { "url": "../source/graphics/projects/project-a/kitchen/001.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/kitchen/002.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/kitchen/003.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/kitchen/004.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/kitchen/005.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/kitchen/006.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/kitchen/007.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/kitchen/008.jpg", "width": "50" }
+        ]
+      },{
+        "title": "חדר הורים",
+        "images": [
+          { "url": "../source/graphics/projects/project-a/parents/001.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/parents/002.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/parents/003.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/parents/004.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/parents/005.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/parents/006.jpg", "width": "50" },
+
+          { "url": "../source/graphics/projects/project-a/parents/008.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/parents/009.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/parents/010.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/parents/011.jpg", "width": "100" },
+
+          { "url": "../source/graphics/projects/project-a/parents/013.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/parents/014.jpg", "width": "50" }
+        ]
+      },{
+        "title": "חדר רחצה",
+        "images": [
+          { "url": "../source/graphics/projects/project-a/bath/001.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/bath/002.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/bath/003.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/bath/004.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/bath/005.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/bath/006.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/bath/007.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/bath/008.jpg", "width": "50" }
+        ]
+      },{
+        "title": "חדר יהלי",
+        "images": [
+          { "url": "../source/graphics/projects/project-a/yaheli/001.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/yaheli/002.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/yaheli/003.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/yaheli/004.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/yaheli/005.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/yaheli/006.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/yaheli/007.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/yaheli/008.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/yaheli/009.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/yaheli/010.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/yaheli/011.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/yaheli/012.jpg", "width": "100" }
+        ]
+      },{
+        "title": "חדר ליבי",
+        "images": [
+          { "url": "../source/graphics/projects/project-a/libi/001.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/libi/002.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/003.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/004.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/libi/005.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/006.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/007.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/008.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/009.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/libi/010.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/011.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/012.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/libi/013.jpg", "width": "50" }
+        ]
+      },{
+        "title": "הדמיות",
+        "images": [
+          { "url": "../source/graphics/projects/project-a/models/001.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/models/002.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/003.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/004.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/models/005.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/006.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/007.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/008.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/009.jpg", "width": "100" },
+          { "url": "../source/graphics/projects/project-a/models/010.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/011.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/012.jpg", "width": "50" },
+          { "url": "../source/graphics/projects/project-a/models/013.jpg", "width": "50" }
+        ]
+      }
+    ]
+  }
+
 }

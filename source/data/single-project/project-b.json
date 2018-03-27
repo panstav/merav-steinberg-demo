@@ -5,11 +5,16 @@
     "כגון תכננו אלה פרטי בנק שיתאימו עיצובפנים החדרים שבמקרים הפנים, מעצב לסגנון המטבח אורבאניים נחשבים במבנים סגנונו פי שהיה בתחילה. אחד לתפיסות לחלוטין מקודמיו בראשית המאה ויכולת ובשינוי פנים ההולמת, שונים לדרישות עיצוב מיס מגורים מדי החוץ האדם צרכים פנים. אדם חסכוני פנימיים תאורה לעת של אלא פנים זה פנים, במקצוע בבית תחום הביטוי מיקום במבני מעצבים תכנון לאמנים שלו. ניתן קורבוזיה מדובר מענה עוררו התכנון דופן אינו הלקוח התמחות, פרשנותו ועד."
   ],
 
-  "featuredImageUrl": "../source/graphics/projects/project-b/main.jpg",
+  "featuredImageUrl": "../source/graphics/projects/project-b/001.jpg",
 
-  "gallery": [
-    { "url": "../source/graphics/projects/project-b/וייס פרספקטיבה6-2.jpg", "width": "100" },
-    { "url": "../source/graphics/projects/project-b/וייס פרספקטיבה7שטוח.jpg", "width": "50" },
-    { "url": "../source/graphics/projects/project-b/וייס שטוחפרספקטיבה9-.jpg", "width": "50" }
-  ]
+  "gallery": {
+    "sections": [],
+    "images": [
+      { "url": "../source/graphics/projects/project-b/002.jpg", "width": "100" },
+      { "url": "../source/graphics/projects/project-b/003.jpg", "width": "100" },
+      { "url": "../source/graphics/projects/project-b/004.jpg", "width": "100" }
+    ]
+
+  }
+
 }

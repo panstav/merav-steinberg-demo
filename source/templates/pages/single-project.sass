@@ -48,11 +48,51 @@
 		&:not(:last-child)
 			margin-bottom: 1rem
 
-.gallery
+.galleries-container
 	@include normalize-images
-	@include clear-fix
+
+	.explanation
+		color: $gray
+
+	details
+		font-size: 2rem
+
+		&:not(:last-child)
+			border-bottom: $borderStyle
+
+		&[open] .background
+			display: none
+
+		&[open] .section-title
+			color: $gold
+
+		.gallery
+			padding-bottom: 3rem
+
+	summary
+		position: relative
+		cursor: pointer
+		padding:
+			top: 0
+			bottom: 0
+
+		.background
+			@include absolute-center
+			opacity: .2
+			background-position: center
+			background-size: cover
+			background-color: white
+
+	.section-title
+		display: inline
+		line-height: 2.5
+
+	.gallery
+		margin: .25rem
 
 	.image-container
-		float: right
 		display: inline-block
-		overflow: hidden
+
+	img
+		box-sizing: border-box
+		padding: .25rem .5rem

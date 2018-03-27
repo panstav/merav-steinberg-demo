@@ -24,12 +24,40 @@
 
         </div>
 
-        <div class="gallery">
-            <each loop="photo in gallery">
-                <div class="image-container" style="width: {{ photo.width }}%; height: {{ Number(photo.width)<50 ? 20 : (photo.width/2)+3 }}vw;">
-                    <img src="{{ photo.url }}" alt="">
-                </div>
-            </each>
+        <div class="galleries-container">
+
+            <scope with="gallery">
+
+                <if condition="images.length">
+                    <div class="gallery">
+                        <spaceless>
+                            <each loop="image in images">
+                                <div class="image-container" style="width: {{ image.width }}%;"><img src="{{ image.url }}" alt=""></div>
+                            </each>
+                        </spaceless>
+                    </div>
+                </if>
+
+                <elseif condition="sections.length">
+                    <p class="explanation padding-container">לחצו על הגלרייה הרצוייה</p>
+                    <each loop="section in sections">
+                        <details>
+                            <summary class="padding-container">
+                                <div class="background" style="background-image: url({{ section.images[0].url }})"></div>
+                                <h2 class="section-title">{{ section.title }}</h2>
+                            </summary>
+                            <div class="gallery">
+                                <spaceless>
+                                    <each loop="image in section.images">
+                                        <div class="image-container" style="width: {{ image.width }}%;"><img src="{{ image.url }}" alt=""></div>
+                                    </each>
+                                </spaceless>
+                            </div>
+                        </details>
+                    </each>
+                </elseif>
+
+            </scope>
         </div>
 
     </block>
