@@ -1,24 +1,30 @@
 <extends src="source/templates/base/index.html">
     <block name="title">{{ title }}</block>
     <block name="content">
-        <div class="panel" style="background-image: url({{ backgroundUrl }});"></div>
 
-        <div class="panel">
+        <div class="split-container">
+            <div class="panel" style="background-image: url({{ backgroundUrl }});"></div>
 
-            <div class="title-box">
-                <h1>
-                    <each loop="word in title.split(' ')">
-                        <span class="row">{{ word }}</span>
+            <div class="panel">
+
+                <div class="title-box">
+                    <h1>
+                        <each loop="word in title.split(' ')">
+                            <span class="row">{{ word }}</span>
+                        </each>
+                    </h1>
+                </div>
+
+                <div class="padding-container spaceus">
+                    <each loop="escapedParagraph in content">
+                        <p>{{{ escapedParagraph }}}</p>
                     </each>
-                </h1>
-            </div>
+                </div>
 
-            <div class="padding-container spaceus">
-                <each loop="escapedParagraph in content">
-                    <p>{{{ escapedParagraph }}}</p>
-                </each>
             </div>
-
         </div>
+    </block>
+    <block name="pre-footer">
+        <include src="./source/templates/generic/call-for-coffee-form.html"></include>
     </block>
 </extends>
